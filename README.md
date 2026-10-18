@@ -1,40 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🏡 Next.js Real Estate
 
-## Getting Started
+A real estate website built with Next.js and React, featuring property listings, home details, and an image gallery.
 
-First, run the development server:
+[نسخه فارسی README](README.fa.md)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- Real estate homepage
+- Property listings
+- Individual property detail pages
+- Image gallery
+- Reusable React components
+- Font Awesome icons
+- Custom CSS styling
+- Persian font support
+
+## 🛠️ Tech Stack
+
+- Next.js 16
+- React 19
+- JavaScript
+- CSS Modules
+- Font Awesome
+- ESLint
+
+## 📁 Project Structure
+
+```text
+Nextjs-real-estate/
+├── components/
+│   ├── modules/
+│   └── templates/
+├── data/
+│   └── db.json
+├── pages/
+│   ├── homes/
+│   │   ├── [id].js
+│   │   └── index.js
+│   ├── _app.js
+│   └── index.js
+├── public/
+│   ├── fonts/
+│   └── img/
+├── styles/
+├── package.json
+└── README.md
+
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🏡 وب‌سایت املاک با Next.js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+این پروژه یک وب‌سایت معرفی و نمایش املاک است که با استفاده از Next.js و React توسعه داده شده است.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[English README](README.md)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## ✨ امکانات پروژه
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- صفحه اصلی وب‌سایت املاک
+- نمایش فهرست خانه‌ها و املاک
+- صفحه جزئیات هر ملک
+- گالری تصاویر
+- استفاده از کامپوننت‌های قابل استفاده مجدد
+- استفاده از آیکون‌های Font Awesome
+- استایل‌دهی با CSS
+- پشتیبانی از فونت‌های فارسی
 
-## Learn More
+## 🛠️ فناوری‌های استفاده‌شده
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 16
+- React 19
+- JavaScript
+- CSS Modules
+- Font Awesome
+- ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 📁 ساختار پروژه
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+```text
+Nextjs-real-estate/
+├── components/
+│   ├── modules/
+│   └── templates/
+├── data/
+│   └── db.json
+├── pages/
+│   ├── homes/
+│   │   ├── [id].js
+│   │   └── index.js
+│   ├── _app.js
+│   └── index.js
+├── public/
+│   ├── fonts/
+│   └── img/
+├── styles/
+├── package.json
+└── README.md
+```
